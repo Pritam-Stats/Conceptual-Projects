@@ -1,5 +1,11 @@
-## pip install tabulate
-## this is to format the output in tabular format
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "tabulate",
+# ]
+# ///
+
+## uv run A1_EMS.py or uv run --with tabulate A1_EMS.py
 
 from tabulate import tabulate
 
